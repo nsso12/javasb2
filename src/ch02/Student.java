@@ -15,8 +15,8 @@ public class Student implements Cloneable
     public boolean equals(Object obj) {  //object로 받기에 다운 캐스팅을 해줘야 함
 //        return super.equals(obj);
         if(obj instanceof Student) {
-            Student std = (Student)obj;
-            if(this.studentId == std.studentId)
+            Student std = (Student) obj;
+            if (this.studentId == std.studentId)
                 return true;
             else return false;
         }
