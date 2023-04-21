@@ -129,7 +129,6 @@ public class MyLinkedList {
         }
         return tempNode;
     }
-
     public void removeAll()
     {
         head = null;
