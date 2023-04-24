@@ -17,7 +17,7 @@ public class MemberArrayListTest {
 
         memberArrayList.showAllMember();
 
-        memberArrayList.removeMember((member1.getMemberId()));
+        memberArrayList.removeMember((member4.getMemberId()));
         memberArrayList.showAllMember();
 
     }
